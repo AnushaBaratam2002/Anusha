@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner myObj=new Scanner(System.in);
+	    System.out.println("Enter name,registrationid,sub1,sub2,sub3");
+		String name=myObj.nextLine();
+		double registrationid=myObj.nextDouble();
+		int sub1=myObj.nextInt();
+		int sub2=myObj.nextInt();
+		int sub3=myObj.nextInt();
+		int total=sub1+sub2+sub3;
+		float average=(total)/3;
+		double percentage = total / 300.0 * 100.0;
+		System.out.println("Total marks="+total);
+		System.out.println("Average marks="+average);
+		System.out.println("Percentage="+percentage);
+		
+		
+		
+		
+	}
+}
